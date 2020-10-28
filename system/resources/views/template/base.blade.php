@@ -14,12 +14,12 @@
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-  @include('admin.section.header')
-  @include('admin.section.sidebar')
+  @include('template.section.header')
+  @include('template.section.sidebar')
   <div class="content-wrapper">
     @yield('content')
   </div>
-  @include('admin.section.footer')
+  @include('template.section.footer')
 </div>
 <script src="{{url('public')}}/plugins/jquery/jquery.min.js"></script>
 <script src="{{url('public')}}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
